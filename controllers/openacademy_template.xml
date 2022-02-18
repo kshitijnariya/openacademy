@@ -1,0 +1,12 @@
+<odoo>
+
+    <template id="index">
+        <title>Openacademy</title>
+        <t t-foreach="teachers" t-as="teacher">
+            <p>
+                <t t-esc="teacher"/>
+            </p>
+        </t>
+    </template>
+
+</odoo>
